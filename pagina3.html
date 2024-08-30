@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greek Website Wireframe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+        .search-box {
+            float: right;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 80% auto
+
+        }
+        .main-content {
+            flex: 2;
+            margin-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+        }
+        .box {
+            border: 2px solid #000;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .large-box {
+            height: 200px;
+            border: initial;
+        }
+        .medium-box {
+            border: initial;
+            height: 150px;
+        }
+        .small-box {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">opcion 1</a>
+            <a href="#">opcion 2</a>
+            <a href="#">opcion 3</a>
+            <a href="#">opcion 4</a>
+            <a href="#">opcion 5</a>
+            <a href="#">opcion 6</a>
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-content">
+            <div class="box large-box">
+                <h2>Group Name</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure expedita ipsa veniam necessitatibus vitae quaerat accusamus amet esse fugit temporibus, labore quidem velit reprehenderit enim qui repellendus quae eveniet molestiae!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dicta quae molestiae quis, vero repellat et distinctio maiores totam aperiam soluta vitae dolorum? Laboriosam dolore labore asperiores saepe! Tempora, omnis!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, assumenda! Quae tempore commodi aperiam, omnis officia laudantium sed consequuntur sint praesentium sunt tempora vitae a illo maiores eveniet iste. Repudiandae.
+                </p>
+                
+            </div>
+            <div class="box medium-box">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure expedita ipsa veniam necessitatibus vitae quaerat accusamus amet esse fugit temporibus, labore quidem velit reprehenderit enim qui repellendus quae eveniet molestiae!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dicta quae molestiae quis, vero repellat et distinctio maiores totam aperiam soluta vitae dolorum? Laboriosam dolore labore asperiores saepe! Tempora, omnis!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, assumenda! Quae tempore commodi aperiam, omnis officia laudantium sed consequuntur sint praesentium sunt tempora vitae a illo maiores eveniet iste. Repudiandae.
+                </p>
+               
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="box small-box"></div>
+            <div class="box small-box"></div>
+            <div class="box small-box"></div>
+            <div class="box small-box"></div>
+            <div class="box small-box"></div>
+        </div>
+    </main>
+    <a href="./pagina2.html">pagina 2</a>
+    <a href="./pagina 3">pagina 3</a>
+</body>
+</html>
